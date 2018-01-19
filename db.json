@@ -1,78 +1,46 @@
 {
-    "clients": [
+    "articles": [
         {
-            "id": 1,
-            "orders": [
+            "code": "146.NERYS",
+            "total_amount": 9,
+            "name": "Toalla varios colores",
+            "description": "",
+            "pictures": [],
+            "warranty": "",
+            "prices": [
                 {
-                    "transaction_identifier": 123512390,
-                    "date_created": "2018-01-10T22:32:45.636Z",
-                    "lines": [
-                        {
-                            "sku": "CodigoArtículo",
-                            "amount": 2.0,
-                            "unit_price": 120.00,
-                            "currency": "$",
-                            "total_amount": 240.00
-                        }
-                    ],
                     "currency": "$",
-                    "total_amount": 240.00,
-                    "customer": {
-                        "name": "Juan",
-                        "last_name": "Perez",
-                        "CI": "1111111-1",
-                        "email": "juanperez@mail.com"
-                    },
-                    "payment": {
-                        "payment_method": "MercadoPago",
-                        "sub_method": "account_money"
-                    }
+                    "amount": 499
                 }
             ],
-            "articles": [
+            "attributes": [
                 {
-                    "code": "146.NERYS",
+                    "code": "Marca",
+                    "name": "Marca",
+                    "value": "Tienda Montevideo",
+                    "type": "text"
+                }
+            ],
+            "variations": [
+                {
+                    "code": "146.NERYS006435.0",
                     "total_amount": 9,
-                    "name": "Toalla varios colores",
-                    "description": "",
-                    "pictures": [],
-                    "warranty": "",
-                    "prices": [
-                        {
-                            "currency": "$",
-                            "amount": 499
-                        }
+                    "pictures": [
+                        "https://s3.amazonaws.com/sagal-excel-uploads-0181239103940129/images/pictures/146.NERYS0064.jpg"
                     ],
-                    "attributes": [
-                        {
-                            "code": "Marca",
-                            "name": "Marca",
-                            "value": "Tienda Montevideo",
-                            "type": "text"
-                        }
+                    "colour": "#FFFFFF",
+                    "secondary_color": "",
+                    "size": "35"
+                },
+                {
+                    "code": "146.NERYS006436.0",
+                    "total_amount": 10,
+                    "pictures": [
+                        "https://s3.amazonaws.com/sagal-excel-uploads-0181239103940129/images/pictures/146.NERYS0064.jpg"
                     ],
-                    "variations": [
-                        {
-                            "code": "146.NERYS006435.0",
-                            "total_amount": 9,
-                            "pictures": [
-                                "https://s3.amazonaws.com/sagal-excel-uploads-0181239103940129/images/pictures/146.NERYS0064.jpg"
-                            ],
-                            "colour": "#FFFFFF",
-                            "secondary_color": "",
-                            "size": "35"
-                        },
-                        {
-                            "code": "146.NERYS006436.0",
-                            "total_amount": 10,
-                            "pictures": [
-                                "https://s3.amazonaws.com/sagal-excel-uploads-0181239103940129/images/pictures/146.NERYS0064.jpg"
-                            ],
-                            "colour": "#FFFFFF",
-                            "secondary_color": "",
-                            "size": "36"
-                        }
-                    ]
+                    "colour": "#FFFFFF",
+                    "secondary_color": "",
+                    "size": "36"
                 }
             ]
         }
